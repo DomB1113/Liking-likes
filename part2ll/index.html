@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Network</h2>
+    </div>
+    <div class="titlebar">
+        <h2>Your Feed</h2>
+    </div>
+    <div class="contentbody">
+        <div class="addavatar">
+            <img src="user-circle.png" alt="user circle">
+            <a href="#">Add an avatar</a>
+            <p>James Doe</p>
+        </div>
+        <div class="likecolumn">
+            <div class="neil">
+                <h2>Neil M</h2>
+                <p class="neillikecounter"> 9 Like(s)</p>
+                <button id="neilbtn" onclick="add1(0)">like</button>
+                <div class="neiltext">
+                <p>I just set up this new discord bot, let me know what you all think.<a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="nichole">
+                <h2>Nichole K</h2>
+                <p class="nicholelikecounter">12 like(s)</p>
+                <button id="nicholebtn" onclick="add1(1)">Like</button>
+                <div class="nicholetext">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="jim"> 
+                <h2>Jim R</h2>
+                <p class="jimlikecounter">9 like(s)</p>
+                <button id="jimbtn" onclick="add1(2)">Like</button>
+                <div class="jimtext">
+                    <p>I cant stop listening to the <a href="#">new album</a></p>
+                    <p>who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

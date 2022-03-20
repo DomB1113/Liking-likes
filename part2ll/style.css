@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 1250px;
+    height: auto;
+    position: relative;
+    left: 350px;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.titlebar{
+    height: 80px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contentbody{
+    display: flex;
+
+}
+.addavatar{
+    border: 4px solid black;
+    height: 400px;
+    width: 350px;
+}
+.addavatar img{
+    height: 180px;
+    padding-left: 85px;
+    padding-top: 40px;
+}
+.addavatar a{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.addavatar p {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+
+
+.neil{
+    border: 4px solid black;
+    width: 820px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 45px;
+}
+.neil h2{
+    flex: 1;
+    display: inline;
+    font-size: 40px;
+}
+.neillikecounter{
+    flex: 1;
+    display: inline;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: 440px;
+    font-size: 25px;
+}
+#neilbtn{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 45px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: inline;
+    margin-left: 40px;
+    position: relative;
+    bottom: 5px;
+}
+.neiltext{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.nichole{
+    border: 4px solid black;
+    width: 820px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.nichole h2{
+    flex: 1;
+    display: inline;
+    font-size: 40px;
+}
+.nicholelikecounter{
+    flex: 1;
+    display: inline;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: 380px;
+    font-size: 25px;
+}
+#nicholebtn{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 45px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: inline;
+    margin-left: 40px;
+    position: relative;
+    bottom: 5px;
+}
+.nicholetext{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+.jim{
+    border: 4px solid black;
+    width: 820px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.jim h2{
+    flex: 1;
+    display: inline;
+    font-size: 40px;
+}
+.jimlikecounter{
+    flex: 1;
+    display: inline;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: 450px;
+    font-size: 25px;
+}
+#jimbtn{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    height: 45px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: inline;
+    margin-left: 40px;
+    position: relative;
+    bottom: 5px;
+}
+.jimtext{
+    margin-top: 30px;
+    font-size: 30px;
+}
